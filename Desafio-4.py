@@ -1,3 +1,4 @@
+#Soma, subtração, multiplicação, divisão, divisão real, resto, potenciação
 n1 = int(input('\033[7mDigite um valor: '))
 n2 = int(input('\033[1;32mDigite outro valor: '))
 s = n1 + n2

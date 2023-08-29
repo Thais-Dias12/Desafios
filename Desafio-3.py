@@ -1,3 +1,4 @@
+#Soma de dois números e resultado
 n1 = int(input('\033[36m Digite um número: '))
 n2 = int(input('\033[34m Digite outro número: '))
 s = n1 + n2 
