@@ -1,0 +1,7 @@
+nome = str(input('\033[32m Digite seu nome completo: ')).strip()
+print('\033[31m Analisando seu nome...')
+print('\033[34m Seu nome em letras maiúsculas é {}'.format(nome.upper()))
+print('\033[34m Seu nome em letras minusculas é {}'.format(nome.lower()))
+print('\033[34m Seu nome tem ao todo {}'.format(len(nome)-nome.count(' ')))
+separa = nome.split()
+print('\033[32m Seu nome é {}, e ele tem {} letras.'.format(separa[0], len(separa[0])))
